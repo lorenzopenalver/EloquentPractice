@@ -2,7 +2,7 @@ for (let index = 0; index <= 7; index++) {
     let element = index;
 
 
-    element = ` #`.repeat(index)
+    element = `#`.repeat(index)
     /* if (index){
        
         console.log(element);
