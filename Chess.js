@@ -1,5 +1,5 @@
-let numero = 20
-    for (let index = 0; index <= numero; index++) {
+let numero = 8
+    for (let index = 0; index < numero; index++) {
         let element = index;
         
         if ((index % 2) == 0){
