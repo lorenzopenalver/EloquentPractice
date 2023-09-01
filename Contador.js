@@ -1,5 +1,5 @@
 
-for (let index = 1; index <= 100; index++) {
+for (let index = 1; index <= 200; index++) {
     let element = index;
     
     if ((index % 3) === 0){

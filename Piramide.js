@@ -1,9 +1,15 @@
-for (let index = 0; index <= 7; index++) {
+let number = 7 
+
+for (let index = 0; index <= number; index++) {
     let element = index;
 
 
     element = `#`.repeat(index)
-    /* if (index){
+    console.log(element);
+}
+
+
+  /* if (index){
        
         console.log(element);
     }
@@ -11,7 +17,7 @@ for (let index = 0; index <= 7; index++) {
         const element = "#".repeat(2)
         console.log(element);  
     } */
-   /*  switch (index) {
+    /* switch (index) {
         case 0:
             element = "#".repeat(1)
             break;
@@ -34,7 +40,3 @@ for (let index = 0; index <= 7; index++) {
         element = "#".repeat(7)
         break;
     } */
-    console.log(element);
-}
-
-
